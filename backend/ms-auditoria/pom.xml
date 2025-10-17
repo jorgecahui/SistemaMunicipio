@@ -58,14 +58,12 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- OPENAPI -->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.5.0</version>
         </dependency>
 
-        <!-- MAPSTRUCT (OPCIONAL según tu tabla) -->
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
@@ -73,14 +71,12 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- LOMBOK -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!-- TESTING -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -92,7 +88,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- MongoDB Embedded para Testing - VERSIÓN CORREGIDA -->
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
             <artifactId>de.flapdoodle.embed.mongo</artifactId>
@@ -100,7 +95,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Spring Boot MongoDB Test Support -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-testcontainers</artifactId>
