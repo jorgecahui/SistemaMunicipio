@@ -7,9 +7,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jorgecahui/config-repo.git # ruta del repositorio git
+          uri: https://github.com/jorgecahui/config-repo.git
           searchPaths: config-data
           default-label: main
+          username: ${GIT_USERNAME:jorgecahui}
+          password: ${GIT_PASSWORD}
   security:
     user:
       name: root
